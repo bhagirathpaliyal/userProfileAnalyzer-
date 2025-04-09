@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import UsernameForm from "./UsernameForm";
-import RepoList from "./RepoList";
-import CommitChart from "./CommitChart";
-import RepoListSkeleton from "./RepoListSkeleton";
-import CommitChartSkeleton from "./CommitChartSkeleton";
+import UsernameForm from "./components/UsernameForm";
+import RepoList from "./components/RepoList";
+import CommitChart from "./components/CommitChart";
+import RepoListSkeleton from "./components/RepoListSkeleton";
+import CommitChartSkeleton from "./components/CommitChartSkeleton";
 
 export interface Repo {
   id: number;
