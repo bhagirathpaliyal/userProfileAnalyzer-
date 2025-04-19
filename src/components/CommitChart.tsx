@@ -80,7 +80,7 @@ const CommitChart: React.FC<CommitChartProps> = ({
 
   
   if (error) return <p className="text-red-500">Error: {error}</p>;
-
+console.log(loading)
   return (
     <div className="my-6 w-[50%] max-md:w-full">
       <h2 className="text-xl font-bold mb-4">Daily Commits Chart</h2>
